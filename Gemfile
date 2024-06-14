@@ -9,6 +9,8 @@ gem 'vite_rails'
 
 gem 'cloudmersive-convert-api-client', '~> 1.3.3'
 
+gem 'dotenv-rails', groups: [:development, :test]
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
