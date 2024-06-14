@@ -1,9 +1,16 @@
-// To see this message, add the following to the `<head>` section in your
-// views/layouts/application.html.erb
-//
-//    <%= vite_client_tag %>
-//    <%= vite_javascript_tag 'application' %>
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from '../components/App';
+
 console.log('Vite ⚡️ Rails')
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // If using a TypeScript entrypoint file:
 //     <%= vite_typescript_tag 'application' %>
